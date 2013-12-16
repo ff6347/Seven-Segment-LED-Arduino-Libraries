@@ -11,9 +11,16 @@ Made by Quin (Qtechknow)
 
 Soda Soda;   // initialize the library
 
+// 8 works right
+// 9 works wrong
+// |_
+// |_|.
+//
+
+
 void setup() {
 // Segments A, B, C, D, E, F, G, DP pin numbers
-  Soda.pins(2, 3, 4, 5, 6, 7, 8, 9, HIGH);  // set high for common anode, and 
+  Soda.pins(1, 2, 4, 6, 7, 9, 10, 5, HIGH);  // set high for common anode, and 
                                             // low for common cathode display
 }
 
